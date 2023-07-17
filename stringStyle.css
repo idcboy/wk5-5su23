@@ -1,0 +1,30 @@
+/*this is the style sheet for string*/
+/*here is the body format*/
+body{
+    background-color: gray;
+    color: goldenrod;
+
+}
+/*this is for the style of the submit button
+thought about using this for text box but cursor would not
+show up meaning users would have had a hard time editing 
+or even finding in some cases*/
+/*Style the header links */
+.script { 
+    font-family:  fantasy cursive;
+    text-align: center;}
+.button{
+    width: 100px;
+    height: 30;
+    background-color: transparent;
+    border-radius: 10px;
+    border-color: goldenrod;
+}
+/*this makes the enjoyment more colorful */
+.Rainbow {
+    background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+    background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    }

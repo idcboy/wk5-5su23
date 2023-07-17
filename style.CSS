@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(9, 253, 245) ;
+    color: rgba(84, 101, 231, 0.822);
+    text-align: center;
+}
+nav{
+    height: 6000px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+}
+footer{
+    text-align: center;
+    margin-right: 200px;
+}
+
+#memepictures{
+    margin-right: 200px;
+    text-align: center;
+}
+
+#body text{
+    margin-right: 200px;
+}
+
+header{
+    text-align: center;
+}
+
+.blink {
+animation: blink-animation 1s steps(5, start) infinite;
+-webkit-animation: blink-animation 1s steps(5, start) infinite ;
+
+}
+@keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+    strings page for input validation assignment
+    Cavri Johnson
+    06/05/23
+    Cavjohns@uat.edu
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--we need a style sheet to define the styles for our page-->
+    <link href="stringStyle.css" rel="stylesheet" type="text/css">
+    <!--this is the link from html file to js resources-->
+    <script src=code.js></script>
+    <!--title for the website-->
+    <title>Strings page</title>
+</head>
+<body>
+  <header class="script"><h1>Welcome to my string page,<span class="Rainbow"> enjoy</span></h1></header>
+   <center> <img id=logpic src="loginmeme.jpg"></center> <br>
+   <br>
+   Please login below.<br>
+   <br>
+   <div id="loginStatus">Status of login</div><br>
+   <br>
+   <form id="creditSubmit" onsubmit="return false">
+First Name: <input type="text" id="fName"><br>
+Last Name: <input type="text" id="lName"><br>
+Zip code: <input type="text" id="zipCode"><br>
+<br>
+<input type="submit" onclick="checkCreds();" class="button">
+</form>
+</body>
+</html>
